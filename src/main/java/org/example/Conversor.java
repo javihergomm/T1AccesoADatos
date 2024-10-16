@@ -60,7 +60,8 @@ public class Conversor {
             }
 
         } catch (IOException e){
-            e.printStackTrace();
+            System.err.println("No existe ese archivo");
+            System.exit(1);
         }
 
     }

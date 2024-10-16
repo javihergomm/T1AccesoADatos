@@ -17,16 +17,20 @@ public class Main {
         conversor.filtroNivel(filtro);
         String formato;
         String nombreSinExtensión = nombreArchivo.split("\\.")[0];
+        String rutaFinal;
         do {
             System.out.println("¿A que formato lo quieres exportar?: ");
             System.out.println("XML");
             System.out.println("JSON");
             formato = teclado.nextLine();
+            System.out.println("¿En que ruta quieres guardar el archivo " + formato.toLowerCase() + "?");
+            rutaFinal = teclado.nextLine();
+
 
             if (formato.equalsIgnoreCase("XML")) {
-                conversor.exportarAXML("src/XML/" + nombreSinExtensión + ".xml");
+                conversor.exportarAXML(rutaFinal + "/" + nombreSinExtensión + ".xml");
             } else if (formato.equalsIgnoreCase("JSON")) {
-                conversor.exportarAJSON("src/JSON/" + nombreSinExtensión + ".json");
+                conversor.exportarAJSON(rutaFinal + "/" + nombreSinExtensión + ".json");
             } else {
                 System.err.println("Ese formato no es válido");
             }
