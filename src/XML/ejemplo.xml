@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<logAplicacion>
+    <log>
+        <fechaHora>2024-09-16T10:45:23</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-18T10:45:23</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+</logAplicacion>

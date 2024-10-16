@@ -40,9 +40,10 @@ public class Conversor {
             List<String> lineasLog = Files.readAllLines(Path.of(ruta));
             for (String linea : lineasLog) {
                 try{
-                    String[] partes = linea.split("] \\[");
+                    String[] partes = linea.split("] ");
                     String fechaString = partes[0].replace("[", "");
                     String nivel = partes[1].replace("]", "");
+                    nivel = nivel.replace("[", "");
                     String mensaje = partes[2];
                     LocalDateTime fecha = LocalDateTime.parse(fechaString, formatoFecha);
                     logscrudos.add(new Logs(fecha, nivel, mensaje));
@@ -57,18 +58,20 @@ public class Conversor {
                     System.out.println(logNoValido);
                 }
             }
+
         } catch (IOException e){
             e.printStackTrace();
         }
 
     }
+
+
     public void filtroNivel(String nivel){
-        if (nivel.equals("NINGUNO")){
+        if (nivel.equalsIgnoreCase("NINGUNO")){
             logsfiltrados = new ArrayList<>(logscrudos);
         } else{
-            logscrudos = new ArrayList<>();
             for (Logs log : logscrudos) {
-                if (log.getNivel().equals(nivel)){
+                if (log.getNivel().equalsIgnoreCase(nivel)){
                     logsfiltrados.add(log);
                 }
             }
@@ -96,7 +99,7 @@ public class Conversor {
             jsonArray.put(jsonObject);
         }
         try (FileWriter file = new FileWriter(rutaArchivo)) {
-            file.write(jsonArray.toString(4)); // Con formato de indentación
+            file.write(jsonArray.toString(4));
             System.out.println("Logs exportados correctamente a JSON.");
         } catch (IOException e) {
             System.out.println("Error al exportar a JSON: " + e.getMessage());

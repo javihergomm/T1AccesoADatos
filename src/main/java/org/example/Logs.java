@@ -38,4 +38,15 @@ public class Logs {
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
     }
+
+    @Override
+    public String toString() {
+        return "Logs{" +
+                "fecha=" + fecha +
+                ", nivel='" + nivel + '\'' +
+                ", mensaje='" + mensaje + '\'' +
+                '}';
+    }
 }
+
+
