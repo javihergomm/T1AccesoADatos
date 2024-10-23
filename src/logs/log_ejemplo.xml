@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<logAplicacion>
+    <log>
+        <fechaHora>2024-09-16 15:53:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:27:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Conexión establecida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:24:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Error en la conexión a la base de datos</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:22:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:11:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:10:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 15:00:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:46:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Solicitud procesada correctamente</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:36:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:35:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:33:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:24:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:15:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:05:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 14:02:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Conexión establecida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:54:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:53:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:50:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:46:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Solicitud procesada correctamente</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:43:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Error en la conexión a la base de datos</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:34:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:26:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:21:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:15:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:10:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 13:08:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Conexión establecida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:58:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:56:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Solicitud procesada correctamente</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:46:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Conexión establecida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:38:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:34:57</fechaHora>
+        <nivel>ERROR</nivel>
+        <mensaje>Usuario inició sesión</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:25:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Archivo no encontrado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:15:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Error en la conexión a la base de datos</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:06:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:03:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Error en la conexión a la base de datos</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 12:01:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:51:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Solicitud procesada correctamente</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:43:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:34:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Solicitud procesada correctamente</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:31:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:24:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:23:57</fechaHora>
+        <nivel>INFO</nivel>
+        <mensaje>Error en la conexión a la base de datos</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:20:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Tiempo de espera agotado</mensaje>
+    </log>
+    <log>
+        <fechaHora>2024-09-16 11:11:57</fechaHora>
+        <nivel>WARNING</nivel>
+        <mensaje>Autenticación fallida</mensaje>
+    </log>
+</logAplicacion>

@@ -4,22 +4,22 @@ import java.time.LocalDateTime;
 
 public class Logs {
 
-    private LocalDateTime fecha;
+    private String fecha;
     private String nivel;
     private String mensaje;
 
-    public Logs (LocalDateTime fecha, String nivel, String mensaje) {
+    public Logs (String fecha, String nivel, String mensaje) {
         this.fecha = fecha;
         this.nivel = nivel;
         this.mensaje = mensaje;
 
     }
 
-    public LocalDateTime getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFecha(LocalDateTime fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 

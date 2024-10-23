@@ -44,9 +44,15 @@ public class Conversor {
                     String fechaString = partes[0].replace("[", "");
                     String nivel = partes[1].replace("]", "");
                     nivel = nivel.replace("[", "");
+
+                    if (!(nivel.equalsIgnoreCase("INFO") || nivel.equalsIgnoreCase("ERROR") || nivel.equalsIgnoreCase("WARNING"))) {
+                        throw new Exception();
+                    }
+
                     String mensaje = partes[2];
                     LocalDateTime fecha = LocalDateTime.parse(fechaString, formatoFecha);
-                    logscrudos.add(new Logs(fecha, nivel, mensaje));
+                    fechaString = fecha.toString().replace("T", " ");
+                    logscrudos.add(new Logs(fechaString, nivel, mensaje));
                 }catch (Exception e){
                     logsNoValidos.add(linea);
                 }
